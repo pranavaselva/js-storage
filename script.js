@@ -13,12 +13,7 @@ const user = {
   skills: ['HTML', 'CSS', 'JS', 'React'],
 };
 
-// Challenge 2:
-localStorage.getItem('firstName');
-localStorage.getItem('lastName');
-localStorage.getItem('age');
-localStorage.getItem('country');
-console.log(localStorage);
+
 
 // Challenge 1:
 localStorage.setItem('firstName', 'Rajat');
@@ -26,6 +21,13 @@ localStorage.setItem('lastName', 'singh');
 localStorage.setItem('age', 25);
 localStorage.setItem('country', 'India');
 localStorage.setItem('state', 'Mumbai');
+console.log(localStorage);
+
+// Challenge 2:
+localStorage.getItem('firstName');
+localStorage.getItem('lastName');
+localStorage.getItem('age');
+localStorage.getItem('country');
 console.log(localStorage);
 
 // Challenge 3:
